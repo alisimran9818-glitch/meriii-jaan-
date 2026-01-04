@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Happy Birthday, Asra ❤️</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg1:#ff9a9e;
+      --bg2:#fad0c4;
+      --accent:#ff6f91;
+      --text:#2b2b2b;
+      --white:#ffffff;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:'Poppins',sans-serif;
+      color:var(--text);
+      background:linear-gradient(135deg,var(--bg1),var(--bg2));
+      min-height:100vh;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+    }
+    .container{
+      width:100%;
+      max-width:900px;
+      padding:24px;
+    }
+    header{
+      text-align:center;
+      padding:40px 20px 10px;
+      color:#fff;
+    }
+    header h1{
+      margin:0 0 8px;
+      font-size:2.6rem;
+      letter-spacing:0.5px;
+    }
+    header p{
+      margin:0;
+      opacity:0.9;
+    }
+    .card{
+      background:rgba(255,255,255,0.9);
+      border-radius:18px;
+      box-shadow:0 10px 30px rgba(0,0,0,0.12);
+      overflow:hidden;
+    }
+    .hero{
+      position:relative;
+      padding:28px 24px;
+      text-align:center;
+      background:linear-gradient(135deg,#ffe1ec,#fff);
+    }
+    .hero h2{
+      margin:0 0 6px;
+      font-size:1.8rem;
+      color:#c03a6b;
+    }
+    .hero .sub{
+      margin:0;
+      color:#7a3b56;
+    }
+    .hearts{
+      position:absolute;
+      inset:0;
+      pointer-events:none;
+      overflow:hidden;
+    }
+    .heart{
+      position:absolute;
+      font-size:22px;
+      color:#ff4f7b;
+      animation:float 8s linear infinite;
+      opacity:0.7;
+    }
+    @keyframes float{
+      0%{transform:translateY(100%) translateX(0) scale(0.9); opacity:0}
+      10%{opacity:0.8}
+      100%{transform:translateY(-120%) translateX(40px) scale(1.2); opacity:0}
+    }
+    .content{
+      padding:24px;
+      line-height:1.7;
+      color:#3a2a33;
+    }
+    .content p{
+      white-space:pre-wrap;
+      margin:0;
+    }
+    .tools{
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+      padding:20px 24px 28px;
+      background:#fff;
+      border-top:1px solid #f1d7e3;
+    }
+    .btn{
+      border:none;
+      border-radius:999px;
+      padding:10px 18px;
+      font-weight:600;
+      cursor:pointer;
+      transition:transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .btn-primary{
+      background:var(--accent);
+      color:#fff;
+      box-shadow:0 6px 16px rgba(255,111,145,0.35);
+    }
+    .btn-ghost{
+      background:#fff;
+      color:var(--accent);
+      border:2px solid var(--accent);
+    }
+    .btn:hover{transform:translateY(-2px)}
+    footer{
+      text-align:center;
+      color:#fff;
+      padding:24px 16px 40px;
+      font-size:0.95rem;
+      opacity:0.9;
+    }
+    .toast{
+      position:fixed;
+      left:50%;
+      bottom:24px;
+      transform:translateX(-50%);
+      background:#2b2b2b;
+      color:#fff;
+      padding:10px 16px;
+      border-radius:10px;
+      box-shadow:0 8px 20px rgba(0,0,0,0.25);
+      font-size:0.95rem;
+      opacity:0;
+      pointer-events:none;
+      transition:opacity 0.25s ease;
+    }
+    .toast.show{opacity:0.95}
+    .audio-tip{
+      font-size:0.9rem;
+      color:#7a3b56;
+      margin-top:8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Happy Birthday, Asra 🌸❤️</h1>
+    <p>Ek chhota sa digital love letter—sirf apke liye.</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <div class="hero">
+        <h2>“Tum meri duniya ho.”</h2>
+        <p class="sub">jaan idkk pr bhut mehnar se likh rha hu sb😭✨</p>
+        <div class="hearts" id="hearts"></div>
+        <audio id="bgm" src="" preload="none"></audio>
+        <div class="audio-tip">Tip: Music allow karoge to background mein soft melody chalegi 🎶</div>
+      </div>
+
+      <div class="content" id="message">
+        <p>
+pta hai apko ek chiz btata hu summer vacation mei n😭 jb mei ghr aya tha i was n ki bilkul depressed 😭 pure din apka wait krna😭 jaan😭 idk kese btao mei bs ruka tha😭 jaan pta hai mei n itna depressed hogya tha mei n metro ke ps ek jagah hai behthne ki waha chala jata tha😭 arham ke sath usse bate batta apne dil ki😭 meiii nn😭 wish krta tha roz ki apka msg agya ho kash😭 orr socho mere jaisa ldka jisse hr chhoti mei😭 jealous feel hota hai wo kese reh rha tha😭 mere jaisa overthinker😭😭 idk kese😭 jaan mere dimag mei pta hai kya tha😭 ki asra said she loves to wo ayegi😭chhodegi nhi mujhe😭 or mei bs ishi hope mei tha😭apko pta hai woo line ki mummy nhi mn rhi ik ulte way mei leliya tha😭 pr socho n😭 kese reh rha tha mei😭 jaannnn meii n bhut hurt pr apke ane ke bs sb worth lgne lga 1 mahine ka wait idk😭 pr uske bd wo akward wali chize jb apne bola tha n😭akward lgta hai😭 dkeho i understand aap bilkul😭 itne buri situation se arhe the pr n😭 uske bd n😭 1 mahine tk maine apse khcuh share nhi kra tha mujhe esa lg rha hai😭 idk kyuu😭 mei bs yhi sochne lga tha😭 allah😭 mei itna bhi dimagnhi tha apse phcuhu ye kyu kha😭 pr jo hua wo hua😭 at the end😭ham sath hai or hamesha rhenge pta hai kitnca accha feel hota hai jb ham hurt hote hai or we know ki hamre ps koi haiii😭 jisse ham share kr skte hai😭 mere ps koi esa hai😭 jo mujhe pyr krta hai care krta hai😭pta hai😭 us wkt maine like realise hua ki mei apse itna pyr krta hu😭 i waited for u😭 ehsaan wale way mei nhi jaan😭 pr because i love u😭 jaan kbhi kbhi itne bure kahyal atte haina pr fir mei sochne lgta hu😭 ki what if aap mere ps nhi hote😭 fir usse mera sara ego chala jata hai😭 parso bhi yhi socha tha maine😭 1 saal hogya hai pr mera fear same hai its not bad😭 pr n😭 apko accha lgna chaiye😭 mtlb😭 abhi bhi utni hi feelings hai ki mei dra hua hu jaan😭 aapne jo kra haina mere liye mei kbhi nhi bhool paunga😭 apni mummy ke against jane se apne dosto ko suna dena mere liye😭 meri kamiya chupa kr mujhe appreciate krna kbhi nhi socha tha😭 mujhe aap miloge jaan😭 idk😭 pr jo unexpected hota hai wo best hota hai ham dono ke liye bhut khcuh unexpected tha or ye to dimag mei aya hi nhi hoga😭 ki 1 saal krlenge😭 or same feelings ke sath😭abhi bhi waise😭 feelings to bhd gyi hai😭orr😭 jaan😭 uk myyyy little cutu si princess😭 apke liye n😭mere dil mmei alg se jagah nhi mera dil hi apka hai😭 jaan😭 mujhe koi dr nhi hai bs aap sath rho😭 jo hoga ham dkehlenge sath mei handle krlenge sb😭 galiya kahne tk se shaadi krne ke liye😭 mei hamesha rhunga😭 orrrr nn kbhi ye mt sochna😭kii mei change hogya hu😭 i am the same ayan you fell for pr 😭 he is trying to do something😭phele jaisa pr is wkt uska time bekr hai😭 i nvr thought ki kisskrunga apko pr hamne itni jldi sb kiya kisi chiz ka regret nhi hai😭 aap rhoge n jaan hamehsa😭 to kkhcuh bhi bura mt sochna jaan😭 aap n insecure feel mt kro😭 aap ho bhut khoobsurat😭(tbhi to masallah😭 krte reta hu)jaan meine past mei jo mistakes kri wo ab repeat nhi krunga😭 i will change😭 i promise😭 aap bs apna trust rkhna mere upr😭 jaan😭 pta hai ham n made for each other hai ham smjh chuke hai ek dusre ko😭 meeiiii chatha hu😭 ham ek dusre ko😭 hamesha pyr kre😭 ik mei apki expectation match nhi kr pata😭 pr mei still try kr rha hu😭 kiiiii apko accha feel krwao😭 orrr fir ek din😭 apko propose kru😭 for shaadi keliye😭 mera sapna hai ye😭 pta hai😭 khcuh bura nhi lgta ab bs pyr ata hai😭 apki 1000 gltiya maaf jaan😭 prrrr mere rehna hamehsa😭 kbhi khcuh esa mt krna jisse mei tut jao😭 i trust u my love😭 aap khuch nhi kroge 😭 100000000% confiedence hai mujhe meri jaan pr😭 orr apko bade hooo kr joo banna hai apko wo banna😭 mei hamesha apke sath hu😭 bs meri jaan😭 jo dil kre wo krna😭 pr ye mt hone dna ham dur haojye😭 hamesha mere kareeb rehna😭😭meiii huuu nnnnnn😭 apke sath hamehsa rhenge ham😭 meri jaan😭 ik bhut gltiya krta hu😭 pr mei change hojaunga😭 mujhe maaf krte rhiyega😭 kbhi khcuh esa nhi krunga ki apka abhrosa tut jaye😭 pta hai 😭 konsi language mei btao😭 pr mei bhut happy huuuuu!!!😭😭😭😭realtionship start hua tha yaad haina apko😭 wo 24th😭 wo zero period😭 wo first hug realtionship ke bd😭wooo feeling😭 jb apka hath pkdta hu😭 mere sath rehna jaan hamesha😭 abhi to ham acche se nhi ghoom pate😭 pr promise😭 bade ho kr😭 apko duniya ghumanunga😭 sath mei😭 ek ghr banne mei bhut mehnt lgti hai😭 jaan😭 ajao😭 sath meii krte hai build😭ek pyra sa ghr😭jaan😭 sb kehte haina😭 ki khuda ne hr kisi ka joda banya hai😭 mil gya mujhe mera partner kbhii😭 never never never never never ever think ki😭 me bore hogya hu😭 mei apse bt krne lliyee😭 schi bhut excited rehta hu😭 warna tohdi intrest dikhat hai apki family ko dkehne ke liye😭 jaan😭 mei wahi hu😭 jsike liye u fell for😭 bs wo😭 tohda nn😭 ajeeb hogya hai jaan😭 ajeeb nhi pr😭 bhut mentally thak jata hai😭 dont worry boards bd sb khcuh shi hojyega😭 haina jaan😭apne mujhse kha tha n😭 mere jeene ki wajhe aaap ho(mei hu) jaan😭 meriiii bhi jeene ki wajeh apa ho😭 ye bs ek normal se bkr life hai😭 pr apki presence sb se zada sundr hai😭 bhut accha feel hota hai😭
+        </p>
+      </div>
+
+      <div class="tools">
+        <button class="btn btn-primary" id="play">Play music 🎶</button>
+        <button class="btn btn-ghost" id="surprise">Little surprise 💌</button>
+        <button class="btn btn-ghost" id="theme">Change theme 🌈</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast">You are my always, Asra. 💖</div>
+
+  <footer>
+    meriiii jaan i really loveee youuuuuuu ✨
+  </footer>
+
+  <script>
+    // Floating hearts
+    const heartsEl = document.getElementById('hearts');
+    const makeHeart = () => {
+      const h = document.createElement('div');
+      h.className = 'heart';
+      h.textContent = '💖';
+      h.style.left = Math.random()*100 + '%';
+      h.style.animationDuration = (6 + Math.random()*6) + 's';
+      h.style.fontSize = (18 + Math.random()*16) + 'px';
+      heartsEl.appendChild(h);
+      setTimeout(()=>h.remove(), 12000);
+    };
+    setInterval(makeHeart, 800);
+
+    // Music (you can set your own MP3 link below)
+    const bgm = document.getElementById('bgm');
+    // Put a direct MP3 URL here if you have one:
+    // bgm.src = 'https://www.saregama.com/song/zara-zara_100003.mp3';
+
+    document.getElementById('play').addEventListener('click', async ()=>{
+      try{
+        if(!bgm.src){
+          showToast('https://www.saregama.com/song/zara-zara_100003.mp3');
+          return;
+        }
+        await bgm.play();
+        showToast('Music on—feel the love ✨');
+      }catch(e){
+        showToast('Tap again if music didn’t start 🎶');
+      }
+    });
+
+    // Surprise button
+    const surpriseLines = [
+      'aap n meri safe place ho. 💗',
+      'Har subah apki yaad ati hai mujhe. 🌅',
+      'Main hamesha apke saath hoon no matter what. 🤝',
+      'mujhse shaadi kroge n?. 😊',
+      'Aaj, kal, hamesha—sirf aap. ♾️'
+    ];
+    document.getElementById('surprise').addEventListener('click', ()=>{
+      const msg = surpriseLines[Math.floor(Math.random()*surpriseLines.length)];
+      showToast(msg);
+    });
+
+    // Theme switch
+    const themes = [
+      ['#ff9a9e','#fad0c4','#ff6f91'],
+      ['#a18cd1','#fbc2eb','#8e5cff'],
+      ['#f6d365','#fda085','#ff7b54'],
+      ['#84fab0','#8fd3f4','#2fb7ff']
+    ];
+    let tIndex = 0;
+    document.getElementById('theme').addEventListener('click', ()=>{
+      tIndex = (tIndex+1)%themes.length;
+      const [bg1,bg2,accent] = themes[tIndex];
+      document.documentElement.style.setProperty('--bg1', bg1);
+      document.documentElement.style.setProperty('--bg2', bg2);
+      document.documentElement.style.setProperty('--accent', accent);
+      showToast('Theme changed—new mood, same love 💞');
+    });
+
+    // Toast helper
+    const toast = document.getElementById('toast');
+    let toastTimer;
+    function showToast(text){
+      toast.textContent = text;
+      toast.classList.add('show');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(()=>toast.classList.remove('show'), 2200);
+    }
+  </script>
+</body>
+</html>
